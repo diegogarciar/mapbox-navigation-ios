@@ -13,6 +13,7 @@
 * Added Ukrainian localization. ([#2735](https://github.com/mapbox/mapbox-navigation-ios/pull/2735))
 * Created the `UserHaloCourseView` similar to `UserCourseView` for approximate location on iOS 14 during the navigation to represent user location. Allow the switch between `UserHaloCourseView` and `UserCourseView` when precise mode is changed. ([#2664](https://github.com/mapbox/mapbox-navigation-ios/pull/2664))
 * Added the ability to provide more detailed `Speed limit incorrect` feedback during turn-by-turn navigation. ([#2725](https://github.com/mapbox/mapbox-navigation-ios/pull/2725))
+* Added a new `NavigationMapView.trafficOverrideRoadClasses` property. For any road class in it all route segments with an `.unknown` traffic congestion level and a matching `MapboxDirections.RoadClass` will be replaced with the `.low` congestion level. ([#2741](https://github.com/mapbox/mapbox-navigation-ios/pull/2741) 
 
 ## v1.1.0
 
