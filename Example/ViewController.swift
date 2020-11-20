@@ -621,7 +621,7 @@ extension ViewController {
 }
 
 extension NavigationViewController: ElectronicHorizonDelegate {
-    public func electronicHorizonDidUpdate(_ electronicHorizon: ElectronicHorizon) {
+    public func electronicHorizonDidUpdate(_ electronicHorizon: ElectronicHorizon, type: ElectronicHorizonResultType) {
         logUnimplemented(protocolType: ElectronicHorizonDelegate.self,  level: .info)
     }
 
